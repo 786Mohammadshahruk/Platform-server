@@ -33,7 +33,7 @@ public class EmployeeControllr {
 
     @RequestMapping(value = "/check",method = RequestMethod.GET )
     public String check(){
-        return  "Checking";
+        return  "Running Application";
     }
 
     @GetMapping("/get")
